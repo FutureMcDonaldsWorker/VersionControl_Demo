@@ -53,34 +53,6 @@ A good commit message clearly describes **WHAT** was changed and **WHY** it was 
 | `docs: extend setup instructions` | `changed` |
 
 ---
-## 🎯 Resolving Merge Conflicts
-
-When two branches modify the same lines in a file, Git cannot automatically combine the changes. This creates a **merge conflict**.
-
-### Why Merge Conflicts Happen
-- Two developers edit the same part of a file
-- One branch was created from an older version of `main`
-- Changes were made in parallel without frequent syncing
-
-### How to Resolve Conflicts in Visual Studio Code
-
-1. Try to merge (or pull) the branch into `main`
-2. VS Code will mark conflicted files with a **Merge Conflict** label
-3. Open the file — you will see conflict markers:
-   ```text
-   <<<<<<< HEAD
-   Your current changes
-   =======
-   Incoming changes from the other branch
-   >>>>>>> feature/your-branch-name
-4. Decide what the final code should look like:
- - Use the Accept Current, Accept Incoming, or Accept Both buttons in VS Code, or
- - Manually edit the code between the markers
-5. Save the file
-6. Stage the resolved file
-7. Commit the merge resolution
-8. Continue with the merge or push
----
 ### Best Practices to Avoid Conflicts
 - Pull from `main` frequently (at least once a day)
 - Keep branches small and focused on one feature
