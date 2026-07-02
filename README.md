@@ -62,7 +62,8 @@ Eine gute Commit-Nachricht beschreibt **WAS** geändert wurde und **WARUM**:
 ## 👉 Übungsaufgaben
 
 Siehe:  [AUFGABEN.md](AUFGABEN.md)
-        [Tutorial/Übungs Seite](https://learngitbranching.js.org/?locale=de_DE)
+        [Weitere Übungs Seite](https://learngitbranching.js.org/?locale=de_DE)
+        [Tutorial Seite](https://code.visualstudio.com/docs/sourcecontrol/repos-remotes)
 
 ---
 
