@@ -53,6 +53,36 @@ A good commit message clearly describes **WHAT** was changed and **WHY** it was 
 | `docs: extend setup instructions` | `changed` |
 
 ---
+### Best Practices to Avoid Conflicts
+- Pull from `main` frequently (at least once a day)
+- Keep branches small and focused on one feature
+- Communicate with teammates when working on overlapping areas
+- Use meaningful commit messages so changes are easier to understand
+
+**Important:** Never commit or push a file that still contains conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`). Always resolve conflicts completely first.
+
+---
+## 🎯 Pull Requests & Code Reviews
+
+Instead of pushing changes directly to `main`, the recommended team workflow uses **Pull Requests (PRs)**. This enables code review before any changes reach the stable main branch.
+
+### Why Use Pull Requests?
+- Maintains stability and quality of `main`
+- Enables peer review and knowledge sharing
+- Creates a permanent record of discussions and decisions
+- Directly supports clean teamwork and quality control (affective learning goal)
+
+### Standard Pull Request Workflow
+
+1. **Push your branch** to GitHub.
+2. **Create the Pull Request** — On GitHub, go to your repository and click “Compare & pull request”.
+3. **Write a clear description** — Explain what was changed and why (you can reference issues or previous commits).
+4. **Request reviewers** — Add team members who should review the code.
+5. **Review the code** — Reviewers leave comments, suggestions, or request changes.
+6. **Make updates** — Address feedback on your branch and push again (the PR updates automatically).
+7. **Approve & merge** — Once approved, merge the PR (common options: “Squash and merge” or “Merge commit”).
+8. **Clean up** — Delete the feature branch after it has been merged.
+---
 ## 👉 Practice Tasks
 
 See: [EXERCISES.md](EXERCISES.md)  
