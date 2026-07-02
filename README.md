@@ -61,7 +61,8 @@ Eine gute Commit-Nachricht beschreibt **WAS** geändert wurde und **WARUM**:
 
 ## 👉 Übungsaufgaben
 
-Siehe: [AUFGABEN.md](AUFGABEN.md)
+Siehe:  [AUFGABEN.md](AUFGABEN.md)
+        [Tutorial/Übungs Seite](https://learngitbranching.js.org/?locale=de_DE)
 
 ---
 
